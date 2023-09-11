@@ -1,0 +1,39 @@
+.box {
+	display: flex;
+	border: 1px solid black;
+	margin-left: 0;
+	overflow-x: hidden;
+}
+h1,
+h3 {
+	margin: 10px 6rem;
+}
+.ribbon_green,
+.ribbon_blue,
+.ribbon_red,
+.ribbon_gray {
+	height: 60px;
+	width: 200px;
+	margin: 10px 0px 20px 0px;
+	border-radius: 10px;
+	transform: translateX(-150px);
+	transition: ease-in 300ms;
+}
+.ribbon_green {
+	background-color: green;
+}
+.ribbon_blue {
+	background-color: blue;
+}
+.ribbon_red {
+	background-color: red;
+}
+.ribbon_gray {
+	background-color: gray;
+}
+.ribbon_green:hover,
+.ribbon_blue:hover,
+.ribbon_red:hover,
+.ribbon_gray:hover {
+	transform: translateX(-40px);
+}

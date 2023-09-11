@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(195, 195, 48);
+}
+.container {
+	display: flex;
+}
+.h_nav {
+	margin: 20px;
+}
+.nav_items {
+	display: flex;
+	width: 200px;
+	background-color: white;
+	margin: 20px;
+	/* padding: 5px; */
+	font-size: larger;
+	text-decoration: none;
+}
+.stuff {
+	color: purple;
+}
+h2 {
+	font-size: 2.5rem;
+	font-family: "Ariel Black";
+}

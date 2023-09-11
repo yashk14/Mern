@@ -1,0 +1,54 @@
+.nav {
+	display: flex;
+	flex-direction: row;
+}
+.v_nav {
+	width: 200px;
+	height: auto;
+	border: 1px solid black;
+	padding: 5px;
+	margin-right: 400px;
+}
+.vHome,
+.vHtml,
+.vCss,
+.vJava,
+.vBootstrap {
+	font-size: large;
+	background-color: rgba(112, 192, 235, 0.737);
+	color: blue;
+	padding: 7px;
+}
+.vHome:hover,
+.vHtml:hover,
+.vCss:hover,
+.vJava:hover,
+.vBootstrap:hover {
+	background-color: orange;
+	color: white;
+}
+.h_nav {
+	width: auto;
+	height: 35px;
+	border: 1px solid black;
+	padding: 5px;
+	display: flex;
+}
+.hHome,
+.hHtml,
+.hCss,
+.hJava {
+	font-size: large;
+	background-color: lightgray;
+	color: blue;
+	padding: 7px 30px;
+	border-right: 1px solid blue;
+	border-left: 1px solid blue;
+}
+.hHome:hover,
+.hHtml:hover,
+.hCss:hover,
+.hJava:hover {
+	background-color: gray;
+	color: white;
+}

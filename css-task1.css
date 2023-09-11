@@ -1,0 +1,52 @@
+table {
+	background-color: rgb(118, 211, 203);
+}
+th,
+td {
+	padding: 0px 6rem;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+.shapes {
+	margin-top: 80px;
+	display: flex;
+}
+.shape1,
+.shape2,
+.shape3,
+.shape4,
+.shape5,
+.shape6,
+.shape7,
+.shape8,
+.shape9 {
+	width: 100px;
+	height: 100px;
+	border: 3px solid green;
+	margin: 10px;
+}
+.shape1 {
+	border-radius: 2px;
+}
+.shape4 {
+	border-radius: 6px;
+}
+.shape7 {
+	border-radius: 20%;
+}
+.shape2 {
+	border-radius: 10%;
+}
+.shape8 {
+	border-radius: 30px;
+}
+.shape3 {
+	border-radius: 50%;
+}
+.shape6 {
+	border-radius: 15px;
+}
+.shape9 {
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
